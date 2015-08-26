@@ -19,5 +19,4 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^test_app/', include('test_app.urls')),
-    url(r'^pages/', include('django.contrib.flatpages.urls'))
 ]
